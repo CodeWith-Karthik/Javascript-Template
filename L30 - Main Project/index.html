@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Javascript Bootcamp</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Personal Finance Tracker</h1>
+        <div class="transaction-input">
+          <input
+            type="text"
+            id="transactionName"
+            placeholder="Transaction Name"
+          />
+          <input type="number" id="transactionAmount" placeholder="Amount" />
+          <select id="transactionCategory">
+            <option value="Income">Income</option>
+            <option value="Expense">Expense</option>
+          </select>
+          <button id="addTransactionBtn">Add Transaction</button>
+        </div>
+      </div>
+      <div class="transactions">
+        <h2>Transactions</h2>
+        <ul id="transactionList"></ul>
+        <h2>Summary</h2>
+        <div id="summary">
+          <p>Total Income: <span id="totalIncome">0</span></p>
+          <p>Total Expenses: <span id="totalExpenses">0</span></p>
+          <p>Balance: <span id="balance">0</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

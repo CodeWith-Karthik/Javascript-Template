@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.todo-input,
+.todo-filter {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#taskStatus {
+  padding: 10px;
+}
+
+#addTaskBtn {
+  background-color: rgb(50, 139, 50);
+  border-style: none;
+  color: white;
+  transition: all 0.5s;
+}
+
+#addTaskBtn:hover {
+  background-color: rgb(4, 86, 4);
+}
+
+#deleteTaskBtn {
+  background-color: rgb(224, 73, 32);
+  border-style: none;
+  color: white;
+  transition: all 0.5s;
+}
+
+#deleteTaskBtn:hover {
+  background-color: rgb(189, 44, 4);
+}
+#addTaskBtn,
+#allTasksBtn,
+#deleteTaskBtn {
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin-left: 10px;
+}
