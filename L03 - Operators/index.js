@@ -1,4 +1,11 @@
 //Operators
+/*
+1.Arithmetic Operators
+2.Assignment Operators
+3.Comparison Operators
+4.Logical Operators
+5.String Operators
+*/
 
 //1.Arithmetic Operators - Arithmetic operators are used to perform basic mathematical operations
 //1.1)Addition (+)
@@ -32,7 +39,7 @@
 
 //2.7)Exponentiation Assignment (**=)
 
-//3. Comparison Operators - Comparison operators are used to compare two values.
+//3.Comparison Operators - Comparison operators are used to compare two values.
 
 //3.1)Equal (==)
 
@@ -50,7 +57,7 @@
 
 //3.9)Less Than or Equal (<=)
 
-//4. Logical Operators - Logical operators are used to combine multiple conditions.
+//4.Logical Operators - Logical operators are used to combine multiple conditions.
 
 //4.1)Logical AND (&&)
 
