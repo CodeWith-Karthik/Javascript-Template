@@ -1,6 +1,6 @@
 // Truthy and Falsy Values
 console.log('Truthy and Falsy Values');
 
-// Falsy Values: 0, '', undefined, null, NaN, false
+// Falsy Values:
 
-// Truthy Values: any value that is not falsy
+// Truthy Values:
