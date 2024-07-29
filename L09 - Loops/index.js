@@ -14,10 +14,6 @@ Types of Loops
  */
 
 // For Loop Example
-// Using 'let' - block scoped, not accessible outside the loop
-// debugger
-
-// Using 'var' - function scoped, accessible outside the loop
 
 //Looping Backwards
 
